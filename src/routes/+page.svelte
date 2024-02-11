@@ -27,7 +27,7 @@
 <p style="display: flex;margin-left:235px">Enter your ToDo here</p>
 <div style="display: flex;width: 700px;margin: 0 auto;">
     <input type="text" bind:value={textInput}>
-    <button style="width: 200px" on:click={addToDo}>Add</button>
+    <button style="width: 200px; height: 62px" on:click={addToDo}>Add</button>
 </div>
 {#each toDoList as toDo, i}
     <div style="display: flex;align-items: baseline; width: 700px;margin: 0 auto">
